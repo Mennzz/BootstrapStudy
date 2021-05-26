@@ -1,5 +1,15 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 #title{
   background-color: #ff4c68;
@@ -9,6 +19,10 @@ body {
   padding: 3% 15% 5%;
 }
 /* navigation bar */
+.navbar-bg{
+  background-color: #8f8f8f;
+  opacity: 0.8;
+}
 .navbar-brand{
   font-size: 2.5rem;
   font-family: "Ubuntu";
@@ -20,17 +34,18 @@ body {
 }
 .nav-link{
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 /* slogan */
 .slogan{
-  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   color: white;
   margin: 10% 0 10% 0;
   font-weight: 900;
+}
+.homePage{
+  text-align: left;
 }
 /* app prototype */
 .title-image{
@@ -42,7 +57,6 @@ body {
 }
 /* features section */
 .section-style{
-  text-align: center;
   padding: 7% 15%;
 }
 .features{
@@ -59,10 +73,6 @@ body {
   color:#ff4c68;
 }
 /* feature title */
-h3{
-  font-weight: bold;
-  font-size: 1.5rem;
-}
 .features p{
   color: #8f8f8f;
   padding: 2% 5%;
@@ -74,11 +84,6 @@ h3{
   color: white;
 }
 
-h2{
-  font-weight:600;
-  font-size: 2.5rem;
-}
-
 .testimonials-image{
   width: 10%;
   border-radius: 100%;
@@ -86,7 +91,6 @@ h2{
 }
 .press{
   background-color:#ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -116,7 +120,6 @@ h2{
 .footer{
   background-color: white;
   padding: 3% 15%;
-  text-align: center;
 }
 .footer i{
   font-size: 1.2rem;
