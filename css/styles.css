@@ -1,3 +1,10 @@
+@media (max-width: 1028px) {
+  html{
+    font-size: 12px;
+  }
+
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -11,8 +18,13 @@ h3{
   font-size: 1.5rem;
   font-weight: bold;
 }
-#title{
+/* section style */
+.colored-section{
+  color: white;
   background-color: #ff4c68;
+}
+.white-section{
+  background-color: white;
 }
 /* container layout */
 .container-fluid{
@@ -40,7 +52,6 @@ h3{
 .slogan{
   font-size: 3rem;
   line-height: 1.5;
-  color: white;
   margin: 10% 0 10% 0;
   font-weight: 900;
 }
@@ -60,7 +71,6 @@ h3{
   padding: 7% 15%;
 }
 .features{
-  background-color: white;
   position: relative;
 }
 /* feature icon */
@@ -79,21 +89,17 @@ h3{
   font-weight: 400;
 }
 /* testimonials */
-.testimonials{
-  background-color:#ef8172;
-  color: white;
+#testimonials,#press{
+  background-color: #ef8172
 }
-
 .testimonials-image{
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 .press{
-  background-color:#ef8172;
   padding-bottom: 3%;
 }
-
 .press img{
   width: 12%;
   margin: 3%;
@@ -107,10 +113,6 @@ h3{
   padding:3% 2%;
 }
 /* call To Action Section */
-.callToAction{
-  background-color: #ff4c68;
-  color: white;
-}
 .cta-title{
   font-size: 3rem;
   margin-bottom: 5%;
@@ -118,7 +120,6 @@ h3{
 
 /* Footer */
 .footer{
-  background-color: white;
   padding: 3% 15%;
 }
 .footer i{
@@ -129,10 +130,8 @@ h3{
   color: #8f8f8f;
 }
 
-
 @media (max-width: 1028px) {
-
-  #title {
+  .homePage {
     text-align: center;
   }
 
@@ -142,4 +141,5 @@ h3{
     width: 80%;
     margin-top: 5%;
   }
+
 }
